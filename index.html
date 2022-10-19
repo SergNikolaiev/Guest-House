@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <!-- ---------------------------Header---------------------------- -->
 
     <header>
-      <div class="logo">guest house</div>
+      <section class="page-header container">
+        <div class="logo">guest house</div>
 
-      <div class="navigation">
-        <ul class="list">
-          <li>
-            <a href="">Start</a>
+        <ul class="list page-header__nav">
+          <li class="page=header__item">
+            <a class="link page=header__link" href="">Start</a>
           </li>
-          <li>
-            <a href="">Contact</a>
+          <li class="page=header__item">
+            <a class="link page=header__link" href="">Contact</a>
           </li>
-          <li>
-            <a href="">Our history</a>
+          <li class="page=header__item">
+            <a class="link page=header__link" href="">Our history</a>
           </li>
         </ul>
-      </div>
 
-      <div>
-        <button type="button">Book now</button>
-      </div>
+        <button type="button" class="page-header__button">Book now</button>
+      </section>
     </header>
 
     <!-- ---------------------------------Main------------------------------- -->
@@ -38,89 +41,88 @@
     <main>
       <!-- ----------------------Hero--------------------------- -->
 
-      <section class="hero">
-        <div>
-          <div class="logo-hero"></div>
+      <section class="container">
+        <div class="hero">
+          <div class="logo logo-hero"></div>
 
-          <h1>Experience the perfect combination of modern housing & natural scenery.</h1>
-          <p>Located in Lofoten, norway</p>
-          <svg>
+          <h1 class="hero__header">
+            Experience the perfect combination of modern housing & natural scenery.
+          </h1>
+          <p class="hero__text">Located in Lofoten, norway</p>
+          <svg class="hero__icon">
             <use></use>
           </svg>
         </div>
-      </section>
 
-      <section class="sub-hero">
-        <h2></h2>
-        <p>
-          The Guest House is the perfect weekend get-away housing. Located in the Norwegian
-          archipelago, Lofoten, it's a great escape from the hustle and bustle of the city. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
-          faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
-          congue et, vulputate ut ligula.
-        </p>
+        <div class="sub-hero">
+          <p class="sub-hero__text">
+            The Guest House is the perfect weekend get-away housing. Located in the Norwegian
+            archipelago, Lofoten, it's a great escape from the hustle and bustle of the city. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+            faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum
+            dapibus congue et, vulputate ut ligula.
+          </p>
 
-        <p>
-          Below you'll find information about the accommodation and what's included in the price.
-          Don't hesitate to reach out to us vi the contact page if you have any questions around
-          your stay.
-        </p>
+          <p class="sub-hero__text">
+            Below you'll find information about the accommodation and what's included in the price.
+            Don't hesitate to reach out to us vi the contact page if you have any questions around
+            your stay.
+          </p>
 
-        <button type="button">Book now</button>
+          <button type="button" class="button sub-hero__button">Book now</button>
+        </div>
       </section>
 
       <!-- --------------------------------------Quest-house-------------------------- -->
 
       <section class="quest-house">
-        <h2>The Guest House is the perfect weekend getaway cabin.</h2>
+        <h2 class="quest-house__header">The Guest House is the perfect weekend getaway cabin.</h2>
 
-        <img src="" alt="" />
-      </section>
+        <img src="" alt="" class="quest-house__image" />
 
-      <!-- ---------------------------------------Sleeping-arrangements-------------------------- -->
+        <div class="quest-house__sleeping-arrangements">
+          <h3 class="quest-house__sleeping-arrangements-header">Sleeping arrangements.</h3>
 
-      <section class="sleeping-arrangements">
-        <div>
-          <h3>Sleeping arrangements.</h3>
-
-          <p>
+          <p class="quest-house__sleeping-arrangements-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
             et faucibus. Nulla rhoncus feugiat eros quis consectetur.
           </p>
 
-          <ul>
-            <li>
-              <svg>
+          <ul class="list quest-house__list">
+            <li class="quest-house__item">
+              <svg class="quest-house__icon">
                 <use></use>
               </svg>
 
-              <h4>Beds</h4>
+              <h4 class="quest-house__item-header">Beds</h4>
 
-              <p>
+              <p class="quest-house__item-text">
                 The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens
                 for all beds.
               </p>
             </li>
-            <li>
-              <svg>
+
+            <li class="quest-house__item">
+              <svg class="quest-house__icon">
                 <use></use>
               </svg>
 
-              <h4>Bedrooms</h4>
+              <h4 class="quest-house__item-header">Bedrooms</h4>
 
-              <p>
+              <p class="quest-house__item-text">
                 Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds
                 per room.
               </p>
             </li>
-            <li>
-              <svg>
+
+            <li class="quest-house__item">
+              <svg class="quest-house__icon">
                 <use></use>
               </svg>
 
-              <h4>Bathrooms</h4>
+              <h4 class="quest-house__item-header">Bathrooms</h4>
 
-              <p>
+              <p class="quest-house__item-text">
                 The cabin has three bathrooms, all equipped with showers and one with a bath tub,
               </p>
             </li>
@@ -131,34 +133,67 @@
       <!-- --------------------------------------The perfect escape-------------------------------- -->
 
       <section class="the-perfect-escape">
-        <p>
+        <h2 class="the-perfect-escape__header">The perfect escape.</h2>
+        <p class="the-perfect-escape__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
           et faucibus. Nulla rhoncus feugiat eros quis consectetur.
         </p>
 
-        <ul>
-          <li>
+        <ul class="list the-perfect-escape__list">
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
             Modern Kitchen Appliances Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </li>
 
-          <li>Outdoor Paths Nulla rhoncus feugiat eros quis consectetur.</li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
+            Outdoor Paths Nulla rhoncus feugiat eros quis consectetur.
+          </li>
 
-          <li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
             Coffee Maker Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut
             faucibus orci tincidunt.
           </li>
 
-          <li>Natural Scenery Cras commodo consequat orci, in convallis risus egestas non.</li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
+            Natural Scenery Cras commodo consequat orci, in convallis risus egestas non.
+          </li>
 
-          <li>Air Conditioner Nullam scelerisque aliquam odio et faucibus.</li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
+            Air Conditioner Nullam scelerisque aliquam odio et faucibus.
+          </li>
 
-          <li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
             Storage Solutions Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
           </li>
 
-          <li>Cutlery Selection Duis tristique sed lorem a vestibulum.</li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
+            Cutlery Selection Duis tristique sed lorem a vestibulum.
+          </li>
 
-          <li>
+          <li class="the-perfect-escape__item">
+            <svg class="the-perfect-escape__icon">
+              <use></use>
+            </svg>
             Take-away Options Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus
             libero ac, cursus quam.
           </li>
@@ -168,36 +203,56 @@
       <!-- ---------------------------------------Past guests--------------------------------- -->
 
       <section class="past-guests">
-        <h2>Past guests.</h2>
+        <h2 class="past-quests__header">Past guests.</h2>
 
-        <p>
+        <p class="past-quests__text">
           Don't take our word for it! Have a look at what our previous guests say about their stay
           at the Guest House.
         </p>
-        <img src="" alt="" />
+        <img src="" alt="" class="past-quests__image" />
+
+        <!-- slaider -->
       </section>
 
-      <!-- ----------------------------------------Come together.------------------------------ -->
+      <!-- ----------------------------------------Come together------------------------------ -->
 
       <section class="come-together">
-        <h2>Come together.</h2>
+        <h2 class="come-together__header">Come together.</h2>
 
-        <p>
+        <p class="come-together__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
           et faucibus.
         </p>
 
-        <ul>
-          <li>
+        <ul class="list come-together__list">
+          <li class="come-together__item">
+            <svg class="come-together__icon">
+              <use></use>
+            </svg>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
             et faucibus.
           </li>
 
-          <li>Nulla rhoncus feugiat eros quis consectetur.</li>
+          <li class="come-together__item">
+            <svg class="come-together__icon">
+              <use></use>
+            </svg>
+            Nulla rhoncus feugiat eros quis consectetur.
+          </li>
 
-          <li>Nullam scelerisque aliquam odio et faucibus.</li>
+          <li class="come-together__item">
+            <svg class="come-together__icon">
+              <use></use>
+            </svg>
+            Nullam scelerisque aliquam odio et faucibus.
+          </li>
 
-          <li>Morbi neque ex, condimentum.</li>
+          <li class="come-together__item">
+            <svg class="come-together__icon">
+              <use></use>
+            </svg>
+            Morbi neque ex, condimentum.
+          </li>
         </ul>
       </section>
 
@@ -222,7 +277,7 @@
     <footer>
       <div class="pages">
         <h3>Pages</h3>
-        <ul>
+        <ul class="list">
           <li>Start</li>
           <li>Contact</li>
           <li>Our history</li>
@@ -234,7 +289,7 @@
 
       <div class="social-media">
         <h3>Social Media</h3>
-        <ul>
+        <ul class="list">
           <li></li>
           <li></li>
           <li></li>
@@ -250,9 +305,9 @@
       </div>
       <div class="logo">guest house</div>
       <p>© Guest House, LLC. All rights reserved. Powered by</p>
-      <a href="tel:+47(0)702881234">+47 (0) 702 88 12 34</a>
-      <a href="mail:example@webflow.io">example@webflow.io</a>
-      <a href="">Klubbvika 12, 8310 Kabelvag, Norway</a>
+      <a class="link" href="tel:+47(0)702881234">+47 (0) 702 88 12 34</a>
+      <a class="link" href="mail:example@webflow.io">example@webflow.io</a>
+      <a class="link" href="">Klubbvika 12, 8310 Kabelvag, Norway</a>
     </footer>
   </body>
 </html>

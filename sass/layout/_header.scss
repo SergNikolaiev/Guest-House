@@ -1,27 +1,33 @@
-header {
-    background-color: $brend-color;
-}
-
-
-
 .page-header {
     display: flex;
     justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    background-color: $brend-color;
+    position: fixed;
+    top: 0;
+    opacity: 75%;
     &__nav {
         display: flex;
         font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
         font-size: 15px;
-        line-height: 20px;
+        line-height: 1.33;
         color: $text-color3;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
-    &__link:not(:last-child) {
+    &__item:not(:last-child) {
         margin-right: 24px;
-        padding-top: 20px;
+    }
+
+    &__button {
+        width: 117px;
+        height: 42px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.25;
+        color: $text-color;
     }
 }
-        
 

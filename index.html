@@ -17,17 +17,21 @@
     <!-- ---------------------------Header---------------------------- -->
 
     <header>
-      <section class="page-header container">
-        <div class="logo">guest house</div>
+      <section class="container page-header">
+        <div class="logo">
+          <svg width="128" height="45">
+            <use href="./images/sprite.svg#logo"></use>
+          </svg>
+        </div>
 
         <ul class="list page-header__nav">
-          <li class="page=header__item">
+          <li class="page-header__item">
             <a class="link page=header__link" href="">Start</a>
           </li>
-          <li class="page=header__item">
+          <li class="page-header__item">
             <a class="link page=header__link" href="">Contact</a>
           </li>
-          <li class="page=header__item">
+          <li class="page-header__item">
             <a class="link page=header__link" href="">Our history</a>
           </li>
         </ul>
@@ -41,35 +45,46 @@
     <main>
       <!-- ----------------------Hero--------------------------- -->
 
-      <section class="container">
-        <div class="hero">
-          <div class="logo logo-hero"></div>
+      <section>
+        <div class="hero-background">
+          <div class="hero container">
+            <div class="logo hero__logo">
+              <svg width="256" height="90">
+                <use href="./images/sprite.svg#logo"></use>
+              </svg>
+            </div>
 
-          <h1 class="hero__header">
-            Experience the perfect combination of modern housing & natural scenery.
-          </h1>
-          <p class="hero__text">Located in Lofoten, norway</p>
-          <svg class="hero__icon">
-            <use></use>
-          </svg>
+            <h1 class="hero__title">
+              Experience the perfect combination of modern housing & natural scenery.
+            </h1>
+            <p class="hero__text">Located in Lofoten, norway</p>
+            <svg class="hero__icon" width="60" height="60">
+              <use href="./images/sprite.svg#icon-mouse"></use>
+            </svg>
+          </div>
         </div>
+        <div class="pos"></div>
 
-        <div class="sub-hero">
-          <p class="sub-hero__text">
-            The Guest House is the perfect weekend get-away housing. Located in the Norwegian
-            archipelago, Lofoten, it's a great escape from the hustle and bustle of the city. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
-            faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum
-            dapibus congue et, vulputate ut ligula.
-          </p>
+        <div class="sub-hero container">
+          <div class="sub-hero__text">
+            <p>
+              The Guest House is the perfect weekend get-away housing. Located in the Norwegian
+              archipelago, Lofoten, it's a great escape from the hustle and bustle of the city.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam
+              odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
+              condimentum dapibus congue et, vulputate ut ligula.
+            </p>
+          </div>
 
-          <p class="sub-hero__text">
-            Below you'll find information about the accommodation and what's included in the price.
-            Don't hesitate to reach out to us vi the contact page if you have any questions around
-            your stay.
-          </p>
+          <div class="sub-hero__">
+            <p class="sub-hero__text">
+              Below you'll find information about the accommodation and what's included in the
+              price. Don't hesitate to reach out to us vi the contact page if you have any questions
+              around your stay.
+            </p>
 
-          <button type="button" class="button sub-hero__button">Book now</button>
+            <button type="button" class="button sub-hero__button">Book now</button>
+          </div>
         </div>
       </section>
 

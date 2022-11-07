@@ -63,7 +63,7 @@
             </svg>
           </div>
         </div>
-        <div class="pos"></div>
+        <div class="divider"></div>
 
         <div class="sub-hero container">
           <div class="sub-hero__text">
@@ -76,7 +76,7 @@
             </p>
           </div>
 
-          <div class="sub-hero__">
+          <div class="sub-hero__wrapper">
             <p class="sub-hero__text">
               Below you'll find information about the accommodation and what's included in the
               price. Don't hesitate to reach out to us vi the contact page if you have any questions
@@ -91,25 +91,34 @@
       <!-- --------------------------------------Quest-house-------------------------- -->
 
       <section class="quest-house">
-        <h2 class="quest-house__header">The Guest House is the perfect weekend getaway cabin.</h2>
+        <div class="divider"></div>
+        <h2 class="quest-house__title">The Guest House is the perfect weekend getaway cabin.</h2>
 
-        <img src="" alt="" class="quest-house__image" />
+        <img
+          src="./images/quest_house_11zon.png"
+          alt=""
+          class="quest-house__image"
+          width="1680px"
+          height="600px"
+        />
+
+        <div class="divider"></div>
 
         <div class="quest-house__sleeping-arrangements">
-          <h3 class="quest-house__sleeping-arrangements-header">Sleeping arrangements.</h3>
+          <h3 class="quest-house__sleeping-arrangements-title">Sleeping arrangements.</h3>
 
           <p class="quest-house__sleeping-arrangements-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
             et faucibus. Nulla rhoncus feugiat eros quis consectetur.
           </p>
 
-          <ul class="list quest-house__list">
+          <ul class="list quest-house__list container">
             <li class="quest-house__item">
-              <svg class="quest-house__icon">
-                <use></use>
+              <svg class="quest-house__icon" width="64px" height="64px">
+                <use href="./images/sprite.svg#icon-bads"></use>
               </svg>
 
-              <h4 class="quest-house__item-header">Beds</h4>
+              <h4 class="quest-house__item-title">Beds</h4>
 
               <p class="quest-house__item-text">
                 The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens
@@ -118,11 +127,11 @@
             </li>
 
             <li class="quest-house__item">
-              <svg class="quest-house__icon">
-                <use></use>
+              <svg class="quest-house__icon" width="64px" height="64px">
+                <use href="./images/sprite.svg#icon-bedrooms"></use>
               </svg>
 
-              <h4 class="quest-house__item-header">Bedrooms</h4>
+              <h4 class="quest-house__item-title">Bedrooms</h4>
 
               <p class="quest-house__item-text">
                 Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds
@@ -131,11 +140,11 @@
             </li>
 
             <li class="quest-house__item">
-              <svg class="quest-house__icon">
-                <use></use>
+              <svg class="quest-house__icon" width="64px" height="64px">
+                <use href="./images/sprite.svg#icon-bathrooms"></use>
               </svg>
 
-              <h4 class="quest-house__item-header">Bathrooms</h4>
+              <h4 class="quest-house__item-title">Bathrooms</h4>
 
               <p class="quest-house__item-text">
                 The cabin has three bathrooms, all equipped with showers and one with a bath tub,
@@ -147,8 +156,9 @@
 
       <!-- --------------------------------------The perfect escape-------------------------------- -->
 
-      <section class="the-perfect-escape">
-        <h2 class="the-perfect-escape__header">The perfect escape.</h2>
+      <section class="the-perfect-escape container">
+        <div class="divider-start"></div>
+        <h2 class="the-perfect-escape__title">The perfect escape.</h2>
         <p class="the-perfect-escape__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
           et faucibus. Nulla rhoncus feugiat eros quis consectetur.
@@ -156,61 +166,85 @@
 
         <ul class="list the-perfect-escape__list">
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-modern_kitchen_appliances"></use>
             </svg>
-            Modern Kitchen Appliances Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p class="the-perfect-escape__text-item">
+              Modern Kitchen Appliances<br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-outdoor_paths"></use>
             </svg>
-            Outdoor Paths Nulla rhoncus feugiat eros quis consectetur.
+            <p class="the-perfect-escape__text-item">
+              Outdoor Paths<br />
+              Nulla rhoncus feugiat eros quis consectetur.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-coffee_maker"></use>
             </svg>
-            Coffee Maker Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut
-            faucibus orci tincidunt.
+            <p class="the-perfect-escape__text-item">
+              Coffee Maker<br />
+              Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus
+              orci tincidunt.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-natural_scenery"></use>
             </svg>
-            Natural Scenery Cras commodo consequat orci, in convallis risus egestas non.
+            <p class="the-perfect-escape__text-item">
+              Natural Scenery<br />
+              Cras commodo consequat orci, in convallis risus egestas non.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-air_conditioner"></use>
             </svg>
-            Air Conditioner Nullam scelerisque aliquam odio et faucibus.
+            <p class="the-perfect-escape__text-item">
+              Air Conditioner<br />
+              Nullam scelerisque aliquam odio et faucibus.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-storage_solutions"></use>
             </svg>
-            Storage Solutions Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+            <p class="the-perfect-escape__text-item">
+              Storage Solutions<br />
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-cutlery_selection"></use>
             </svg>
-            Cutlery Selection Duis tristique sed lorem a vestibulum.
+            <p class="the-perfect-escape__text-item">
+              Cutlery Selection<br />
+              Duis tristique sed lorem a vestibulum.
+            </p>
           </li>
 
           <li class="the-perfect-escape__item">
-            <svg class="the-perfect-escape__icon">
-              <use></use>
+            <svg class="the-perfect-escape__icon" width="36px" height="36px">
+              <use href="./images/sprite.svg#icon-take-away_options"></use>
             </svg>
-            Take-away Options Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus
-            libero ac, cursus quam.
+            <p class="the-perfect-escape__text-item">
+              Take-away Options<br />
+              Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus
+              quam.
+            </p>
           </li>
         </ul>
       </section>

@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  max-width: 1440px;
+  max-width: 1680px;
   position: relative;
   top: 80px;
 }
@@ -45,6 +45,19 @@ button {
 .container {
   padding-left: 120px;
   padding-right: 120px;
+}
+
+.divider {
+  border: 8px solid #E08631;
+  border-radius: 5px;
+  width: 42px;
+  margin: 100px auto 32px;
+}
+
+.divider-start {
+  border: 8px solid #E08631;
+  border-radius: 5px;
+  width: 42px;
 }
 
 .page-header {
@@ -100,7 +113,7 @@ button {
   padding-bottom: 33px;
   font-family: 'Montserrat';
   font-size: 48px;
-  line-height: 53px;
+  line-height: 1.1;
   text-align: center;
   color: #FFFFFF;
   font-weight: 400;
@@ -109,7 +122,7 @@ button {
 .hero__text {
   font-family: 'Montserrat';
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.42;
   letter-spacing: 2px;
   color: #FFFFFF;
   padding-bottom: 113px;
@@ -120,16 +133,10 @@ button {
   padding-bottom: 37px;
 }
 
-.pos {
-  border: 8px solid #E08631;
-  border-radius: 5px;
-  width: 42px;
-  margin: 100px auto 32px;
-}
-
 .sub-hero {
   display: flex;
   justify-content: center;
+  padding-bottom: 90px;
 }
 
 .sub-hero__text {
@@ -137,7 +144,7 @@ button {
   padding-right: 40px;
   font-family: 'Montserrat';
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.42;
   color: #333333;
 }
 
@@ -148,7 +155,127 @@ button {
   height: 42px;
   font-family: 'Montserrat';
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.42;
   color: #FFFFFF;
+}
+
+.sub-hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quest-house {
+  background: #FAF8F0;
+}
+
+.quest-house__title {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  color: #52503B;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.quest-house__image {
+  margin-bottom: 100px;
+}
+
+.quest-house__sleeping-arrangements {
+  margin-top: 30px;
+}
+
+.quest-house__sleeping-arrangements-title {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.13;
+  text-align: center;
+  color: #52503B;
+  margin-bottom: 14px;
+}
+
+.quest-house__sleeping-arrangements-text {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.5;
+  color: #52503B;
+  max-width: 600px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 32px;
+}
+
+.quest-house__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quest-house__item {
+  width: 370px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quest-house__item-title {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #52503B;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.quest-house__item-text {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #52503B;
+}
+
+.the-perfect-escape {
+  padding-top: 100px;
+}
+
+.the-perfect-escape__list {
+  display: flex;
+}
+
+.the-perfect-escape__item {
+  padding-bottom: 32px;
+  max-width: 568px;
+}
+
+.the-perfect-escape__title {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.13;
+  color: #52503B;
+  padding-top: 30px;
+  padding-bottom: 14px;
+}
+
+.the-perfect-escape__text {
+  max-width: 600px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.5;
+  color: #52503B;
+  padding-bottom: 30px;
+}
+
+.the-perfect-escape__text-item {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 1.43;
+  color: #52503B;
+  padding-left: 16px;
 }
 /*# sourceMappingURL=main.css.map */

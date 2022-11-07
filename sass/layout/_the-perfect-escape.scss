@@ -1,0 +1,35 @@
+.the-perfect-escape {
+    padding-top: 100px;
+    &__list {
+        display: flex;
+    }
+    &__item {
+        padding-bottom: 32px;
+        max-width: 568px;
+    }
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.13;
+        color: $text-color;
+        padding-top: 30px;
+        padding-bottom: 14px;
+    }
+    &__text {
+        max-width: 600px;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.5;
+        color: $text-color;
+        padding-bottom: 30px;
+    }
+    &__text-item {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 1.43;
+        color: $text-color;
+        padding-left: 16px;
+    }
+    
+}

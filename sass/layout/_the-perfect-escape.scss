@@ -1,11 +1,15 @@
 .the-perfect-escape {
     padding-top: 100px;
+
     &__list {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     &__item {
+        display: flex;
         padding-bottom: 32px;
-        max-width: 568px;
+        width: calc((100% - 32px) / 2);
     }
     &__title {
         font-family: 'Montserrat';

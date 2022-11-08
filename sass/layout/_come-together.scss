@@ -1,0 +1,44 @@
+.come-together {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    &__left-part {
+        width: calc((100% - 64px)/ 2);
+    }
+    &__right-part {
+        width: calc((100% - 64px)/ 2);
+        
+    }
+    &__list {
+        display: flex;
+            flex-wrap: wrap;
+    }
+    &__title {
+        padding-top: 30px;
+        padding-bottom: 12px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.13;
+        color: $text-color;
+    }
+    &__text {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.5;
+        color: $text-color;
+    }
+    &__svg-text {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 1.43;
+        color: $text-color2;
+        padding-left: 16px;
+    }
+    &__item {
+        display: flex;
+        width: calc((100% - 37px)/ 2);
+        padding-bottom: 32px;
+    }
+}

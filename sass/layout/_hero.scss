@@ -48,20 +48,21 @@
         line-height: 1.42;
         color: $text-color2;
     }
-    &__button {
-        background: $text-color;
-        border-radius: 6px;
-        width: 107px;
-        height: 42px;
-        font-family: 'Montserrat';
-        font-size: 14px;
-        line-height: 1.42;
-        color: #FFFFFF;
-    }
+    
     &__wrapper {
         display: flex;
         flex-direction: column;
         justify-content:space-between;
     }
 
+}
+.button {
+    background: $text-color;
+    border-radius: 6px;
+    width: 107px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 1.42;
+    color: #FFFFFF;
 }

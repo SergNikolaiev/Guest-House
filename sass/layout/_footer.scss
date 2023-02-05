@@ -1,0 +1,58 @@
+footer {
+    background-color: $brend-color;
+    padding-top: 100px;
+}
+.wrapper-footer {
+    display: flex;
+}
+
+.pages {
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        color: $text-color3;
+        text-transform: uppercase
+    }
+    &__item {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 1.43;
+        color: $text-color3;
+    }
+}
+
+.social-media {
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        color: $text-color3;
+        text-transform: uppercase;
+    }
+    &__list {
+        display: flex;
+    }
+}
+
+.newsletter {
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        color: $text-color3;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 1.43;
+        color: $text-color3;
+    }
+}

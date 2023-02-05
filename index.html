@@ -63,27 +63,29 @@
             </svg>
           </div>
         </div>
-        <div class="divider"></div>
 
         <div class="sub-hero container">
-          <div class="sub-hero__text">
-            <p>
-              The Guest House is the perfect weekend get-away housing. Located in the Norwegian
-              archipelago, Lofoten, it's a great escape from the hustle and bustle of the city.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam
-              odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
-              condimentum dapibus congue et, vulputate ut ligula.
-            </p>
-          </div>
+          <div class="divider"></div>
+          <div class="wrapper-flex">
+            <div class="sub-hero__text">
+              <p>
+                The Guest House is the perfect weekend get-away housing. Located in the Norwegian
+                archipelago, Lofoten, it's a great escape from the hustle and bustle of the city.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam
+                odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
+                condimentum dapibus congue et, vulputate ut ligula.
+              </p>
+            </div>
 
-          <div class="sub-hero__wrapper">
-            <p class="sub-hero__text">
-              Below you'll find information about the accommodation and what's included in the
-              price. Don't hesitate to reach out to us vi the contact page if you have any questions
-              around your stay.
-            </p>
+            <div class="sub-hero__wrapper">
+              <p class="sub-hero__text">
+                Below you'll find information about the accommodation and what's included in the
+                price. Don't hesitate to reach out to us vi the contact page if you have any
+                questions around your stay.
+              </p>
 
-            <button type="button" class="button">Book now</button>
+              <button type="button" class="button">Book now</button>
+            </div>
           </div>
         </div>
       </section>
@@ -91,8 +93,10 @@
       <!-- --------------------------------------Quest-house-------------------------- -->
 
       <section class="quest-house">
-        <div class="divider"></div>
-        <h2 class="quest-house__title">The Guest House is the perfect weekend getaway cabin.</h2>
+        <div class="container">
+          <div class="divider"></div>
+          <h2 class="quest-house__title">The Guest House is the perfect weekend getaway cabin.</h2>
+        </div>
 
         <img
           src="./images/quest_house_11zon.png"
@@ -102,55 +106,57 @@
           height="600px"
         />
 
-        <div class="divider"></div>
+        <div class="wrapper-quest-house">
+          <div class="divider"></div>
 
-        <div class="quest-house__sleeping-arrangements">
-          <h3 class="quest-house__sleeping-arrangements-title">Sleeping arrangements.</h3>
+          <div class="quest-house__sleeping-arrangements">
+            <h3 class="quest-house__sleeping-arrangements-title">Sleeping arrangements.</h3>
 
-          <p class="quest-house__sleeping-arrangements-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
-            et faucibus. Nulla rhoncus feugiat eros quis consectetur.
-          </p>
+            <p class="quest-house__sleeping-arrangements-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam
+              odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
+            </p>
 
-          <ul class="list quest-house__list container">
-            <li class="quest-house__item">
-              <svg class="quest-house__icon" width="64px" height="64px">
-                <use href="./images/sprite.svg#icon-bads"></use>
-              </svg>
+            <ul class="list quest-house__list container">
+              <li class="quest-house__item">
+                <svg class="quest-house__icon" width="64px" height="64px">
+                  <use href="./images/sprite.svg#icon-bads"></use>
+                </svg>
 
-              <h4 class="quest-house__item-title">Beds</h4>
+                <h4 class="quest-house__item-title">Beds</h4>
 
-              <p class="quest-house__item-text">
-                The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens
-                for all beds.
-              </p>
-            </li>
+                <p class="quest-house__item-text">
+                  The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes
+                  linens for all beds.
+                </p>
+              </li>
 
-            <li class="quest-house__item">
-              <svg class="quest-house__icon" width="64px" height="64px">
-                <use href="./images/sprite.svg#icon-bedrooms"></use>
-              </svg>
+              <li class="quest-house__item">
+                <svg class="quest-house__icon" width="64px" height="64px">
+                  <use href="./images/sprite.svg#icon-bedrooms"></use>
+                </svg>
 
-              <h4 class="quest-house__item-title">Bedrooms</h4>
+                <h4 class="quest-house__item-title">Bedrooms</h4>
 
-              <p class="quest-house__item-text">
-                Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds
-                per room.
-              </p>
-            </li>
+                <p class="quest-house__item-text">
+                  Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds
+                  per room.
+                </p>
+              </li>
 
-            <li class="quest-house__item">
-              <svg class="quest-house__icon" width="64px" height="64px">
-                <use href="./images/sprite.svg#icon-bathrooms"></use>
-              </svg>
+              <li class="quest-house__item">
+                <svg class="quest-house__icon" width="64px" height="64px">
+                  <use href="./images/sprite.svg#icon-bathrooms"></use>
+                </svg>
 
-              <h4 class="quest-house__item-title">Bathrooms</h4>
+                <h4 class="quest-house__item-title">Bathrooms</h4>
 
-              <p class="quest-house__item-text">
-                The cabin has three bathrooms, all equipped with showers and one with a bath tub,
-              </p>
-            </li>
-          </ul>
+                <p class="quest-house__item-text">
+                  The cabin has three bathrooms, all equipped with showers and one with a bath tub,
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -338,39 +344,56 @@
     <!-- -----------------------------Footer--------------------------------- -->
 
     <footer>
-      <div class="pages">
-        <h3>Pages</h3>
-        <ul class="list">
-          <li>Start</li>
-          <li>Contact</li>
-          <li>Our history</li>
-          <li>Licenses</li>
-          <li>Instructions</li>
-          <li>Style guide</li>
-        </ul>
-      </div>
+      <section class="container">
+        <div class="wrapper-footer">
+          <div class="pages">
+            <h3 class="pages__title">Pages</h3>
+            <ul class="list pages__list">
+              <li class="pages__item">Start</li>
+              <li class="pages__item">Contact</li>
+              <li class="pages__item">Our history</li>
+              <li class="pages__item">Licenses</li>
+              <li class="pages__item">Instructions</li>
+              <li class="pages__item">Style guide</li>
+            </ul>
+          </div>
 
-      <div class="social-media">
-        <h3>Social Media</h3>
-        <ul class="list">
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
+          <div class="social-media">
+            <h3 class="social-media__title">Social Media</h3>
+            <ul class="list social-media__list">
+              <li class="social-media__item">
+                <svg width="36px" height="36px">
+                  <use href="./images/sprite.svg#icon-airbnb"></use>
+                </svg>
+              </li>
+              <li class="social-media__item">
+                <svg width="36px" height="36px">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </li>
+              <li class="social-media__item">
+                <svg width="36px" height="36px">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
 
-      <div>
-        <h3>Newsletter</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-          elementum tristique.
-        </p>
-      </div>
-      <div class="logo">guest house</div>
-      <p>© Guest House, LLC. All rights reserved. Powered by</p>
-      <a class="link" href="tel:+47(0)702881234">+47 (0) 702 88 12 34</a>
-      <a class="link" href="mail:example@webflow.io">example@webflow.io</a>
-      <a class="link" href="">Klubbvika 12, 8310 Kabelvag, Norway</a>
+          <div class="newsletter">
+            <h3 class="newsletter__title">Newsletter</h3>
+            <p class="newsletter__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+              eros elementum tristique.
+            </p>
+            <input type="email" name="username" placeholder="Email" />
+          </div>
+        </div>
+        <div class="logo">guest house</div>
+        <p>© Guest House, LLC. All rights reserved. Powered by</p>
+        <a class="link" href="tel:+47(0)702881234">+47 (0) 702 88 12 34</a>
+        <a class="link" href="mail:example@webflow.io">example@webflow.io</a>
+        <a class="link" href="">Klubbvika 12, 8310 Kabelvag, Norway</a>
+      </section>
     </footer>
   </body>
 </html>

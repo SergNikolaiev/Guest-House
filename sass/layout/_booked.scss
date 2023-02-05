@@ -1,13 +1,15 @@
 .booked {
     background-color: $section-backgraund-color;
     padding-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     &__text {
         font-family: 'Montserrat';
         font-size: 32px;
         line-height: 1.1;
         text-align: center;
         color: $text-color;
+    padding-top: 30px;
+    padding-bottom: 12px;
     }
     &__sub-text {
         font-family: 'Montserrat';
@@ -15,6 +17,7 @@
         line-height: 1.5;
         text-align: center;
         color: $text-color;
+        padding-bottom: 20px;
     }
 }
 .wrapper {
@@ -32,4 +35,9 @@
     line-height: 1.25;
     text-align: center;
     color: $brend-color;
+    margin-right: 20px;
+}
+.wrap-button {
+    display: flex;
+    justify-content: center;
 }

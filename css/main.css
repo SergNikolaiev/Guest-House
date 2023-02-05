@@ -133,12 +133,13 @@ button {
 }
 
 .sub-hero {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 90px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #FAF8F0;
 }
 
 .sub-hero__text {
+  padding-top: 33px;
   max-width: 360px;
   padding-right: 40px;
   font-family: 'Montserrat';
@@ -153,6 +154,11 @@ button {
   justify-content: space-between;
 }
 
+.wrapper-flex {
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   background: #52503B;
   border-radius: 6px;
@@ -165,7 +171,8 @@ button {
 }
 
 .quest-house {
-  background: #FAF8F0;
+  background: #FFFFFF;
+  padding-top: 100px;
 }
 
 .quest-house__title {
@@ -175,11 +182,8 @@ button {
   line-height: 1;
   color: #52503B;
   text-align: center;
-  margin-bottom: 140px;
-}
-
-.quest-house__image {
-  margin-bottom: 100px;
+  padding-bottom: 140px;
+  padding-top: 32px;
 }
 
 .quest-house__sleeping-arrangements {
@@ -236,6 +240,11 @@ button {
   line-height: 1.43;
   text-align: center;
   color: #52503B;
+}
+
+.wrapper-quest-house {
+  background-color: #FAF8F0;
+  padding-top: 100px;
 }
 
 .the-perfect-escape {
@@ -335,7 +344,7 @@ button {
 .booked {
   background-color: #FAF8F0;
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .booked__text {
@@ -344,6 +353,8 @@ button {
   line-height: 1.1;
   text-align: center;
   color: #52503B;
+  padding-top: 30px;
+  padding-bottom: 12px;
 }
 
 .booked__sub-text {
@@ -352,6 +363,7 @@ button {
   line-height: 1.5;
   text-align: center;
   color: #52503B;
+  padding-bottom: 20px;
 }
 
 .wrapper {
@@ -369,5 +381,68 @@ button {
   line-height: 1.25;
   text-align: center;
   color: #52503B;
+  margin-right: 20px;
+}
+
+.wrap-button {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #52503B;
+  padding-top: 100px;
+}
+
+.wrapper-footer {
+  display: flex;
+}
+
+.pages__title {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.pages__item {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 1.43;
+  color: #FFFFFF;
+}
+
+.social-media__title {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.social-media__list {
+  display: flex;
+}
+
+.newsletter__title {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.newsletter__text {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 1.43;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */

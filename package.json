@@ -1,0 +1,24 @@
+{
+  "name": "guest-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergNikolaiev/Guest-House.git"
+  },
+  "author": "Serhii Nikolaiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergNikolaiev/Guest-House/issues"
+  },
+  "homepage": "https://github.com/SergNikolaiev/Guest-House#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  }
+}
